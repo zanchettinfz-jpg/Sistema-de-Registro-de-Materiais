@@ -2,28 +2,21 @@
 
 ## 🧠 Sobre o projeto
 
-Esse projeto foi desenvolvido por mim com o objetivo de criar um sistema simples para registro e gerenciamento de materiais. A ideia é permitir cadastrar, consultar e organizar materiais de forma prática, simulando um controle básico que poderia ser usado em empresas ou sistemas de estoque.
-
-Sistemas desse tipo são importantes porque ajudam a manter o controle de informações como descrição, códigos e uso dos materiais, facilitando a organização e rastreabilidade dentro de um sistema.
+Esse projeto foi desenvolvido por mim com o objetivo de criar um sistema simples para registro e gerenciamento de materiais. A ideia é permitir cadastrar, consultar e organizar materiais de forma prática, simulando um controle básico de dados.
 
 ## 🚀 Funcionalidades
 
 * Cadastro de materiais
 * Listagem de materiais cadastrados
-* Atualização de dados dos materiais
-* Remoção de materiais
-* Organização básica dos registros
+* Atualização de dados
+* Remoção de registros
 
 ## 🛠️ Tecnologias utilizadas
 
 * Java
-* Programação orientada a objetos (POO)
+* Programação Orientada a Objetos (POO)
+* JDBC (conexão com banco de dados)
 
-## 📂 Estrutura do projeto
-
-O projeto foi dividido de forma simples para facilitar o entendimento:
-
-```
 ## 📂 Estrutura do projeto
 
 O projeto está organizado de forma simples, com todas as classes dentro do diretório `src`:
@@ -44,9 +37,9 @@ src/
 git clone https://github.com/zanchettinfz-jpg/Sistema-de-Registro-de-Materiais
 ```
 
-2. Abra em uma IDE (IntelliJ, Eclipse, etc.)
+2. Abra o projeto em uma IDE (IntelliJ, Eclipse, etc.)
 
-3. Execute a classe principal
+3. Execute a classe `Main.java`
 
 ## 🎯 Objetivo
 
@@ -54,20 +47,16 @@ Esse projeto foi desenvolvido com foco em aprendizado, principalmente para prati
 
 * Lógica de programação
 * Organização de código
-* Conceitos de POO
+* Manipulação de banco de dados
 * Estrutura de um sistema simples
 
 ## 📌 Melhorias futuras
 
-Pretendo melhorar o sistema adicionando:
-
-* Interface gráfica
-* Banco de dados
-* Validações mais robustas
-* Melhor organização das camadas
+* Separar o projeto em camadas (model, DAO, service)
+* Criar uma interface gráfica
+* Melhorar validações
+* Adicionar mais funcionalidades
 
 ## 👨‍💻 Autor
 
 Desenvolvido por mim durante meus estudos em Análise e Desenvolvimento de Sistemas.
-
-[1]: https://andessistemas.com.br/wiki/index.php/Registro_de_Material?utm_source=chatgpt.com "Registro de Material - Wiki AnDes Sistemas"
