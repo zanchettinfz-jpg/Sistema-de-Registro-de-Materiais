@@ -24,11 +24,16 @@ Sistemas desse tipo são importantes porque ajudam a manter o controle de inform
 O projeto foi dividido de forma simples para facilitar o entendimento:
 
 ```
+## 📂 Estrutura do projeto
+
+O projeto está organizado de forma simples, com todas as classes dentro do diretório `src`:
+
+```
 src/
- ├── model/        # Classes que representam os materiais
- ├── service/      # Regras de negócio
- ├── repository/   # Manipulação e armazenamento dos dados
- └── main/         # Classe principal para execução do sistema
+ ├── ConexaoDB.java   # Responsável pela conexão com o banco de dados
+ ├── Main.java        # Classe principal para execução do sistema
+ ├── Perfil.java      # Representa os dados do material/perfil
+ └── PerfilDAO.java   # Responsável pelas operações no banco de dados (CRUD)
 ```
 
 ## ▶️ Como executar
