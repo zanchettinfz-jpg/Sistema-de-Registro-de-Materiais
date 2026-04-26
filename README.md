@@ -1,18 +1,68 @@
-## Começando
+# 📦 Sistema de Registro de Materiais
 
-Bem-vindo ao mundo Java do VS Code. Aqui está um guia para ajudá-lo a começar a escrever código Java no Visual Studio Code.
+## 🧠 Sobre o projeto
 
-## Estrutura de Pastas
+Esse projeto foi desenvolvido por mim com o objetivo de criar um sistema simples para registro e gerenciamento de materiais. A ideia é permitir cadastrar, consultar e organizar materiais de forma prática, simulando um controle básico que poderia ser usado em empresas ou sistemas de estoque.
 
-O workspace contém duas pastas por padrão, onde:
+Sistemas desse tipo são importantes porque ajudam a manter o controle de informações como descrição, códigos e uso dos materiais, facilitando a organização e rastreabilidade dentro de um sistema.
 
-- `src`: a pasta para manter os arquivos fonte
-- `lib`: a pasta para manter as dependências
+## 🚀 Funcionalidades
 
-Enquanto isso, os arquivos de saída compilados serão gerados na pasta `bin` por padrão.
+* Cadastro de materiais
+* Listagem de materiais cadastrados
+* Atualização de dados dos materiais
+* Remoção de materiais
+* Organização básica dos registros
 
-> Se você deseja personalizar a estrutura de pastas, abra `.vscode/settings.json` e atualize as configurações relacionadas lá.
+## 🛠️ Tecnologias utilizadas
 
-## Gerenciamento de Dependências
+* Java
+* Programação orientada a objetos (POO)
 
-A visualização `JAVA PROJECTS` permite que você gerencie suas dependências. Mais detalhes podem ser encontrados [aqui](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 📂 Estrutura do projeto
+
+O projeto foi dividido de forma simples para facilitar o entendimento:
+
+```
+src/
+ ├── model/        # Classes que representam os materiais
+ ├── service/      # Regras de negócio
+ ├── repository/   # Manipulação e armazenamento dos dados
+ └── main/         # Classe principal para execução do sistema
+```
+
+## ▶️ Como executar
+
+1. Clone o repositório:
+
+```
+git clone https://github.com/zanchettinfz-jpg/Sistema-de-Registro-de-Materiais
+```
+
+2. Abra em uma IDE (IntelliJ, Eclipse, etc.)
+
+3. Execute a classe principal
+
+## 🎯 Objetivo
+
+Esse projeto foi desenvolvido com foco em aprendizado, principalmente para praticar:
+
+* Lógica de programação
+* Organização de código
+* Conceitos de POO
+* Estrutura de um sistema simples
+
+## 📌 Melhorias futuras
+
+Pretendo melhorar o sistema adicionando:
+
+* Interface gráfica
+* Banco de dados
+* Validações mais robustas
+* Melhor organização das camadas
+
+## 👨‍💻 Autor
+
+Desenvolvido por mim durante meus estudos em Análise e Desenvolvimento de Sistemas.
+
+[1]: https://andessistemas.com.br/wiki/index.php/Registro_de_Material?utm_source=chatgpt.com "Registro de Material - Wiki AnDes Sistemas"
